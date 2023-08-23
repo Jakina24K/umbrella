@@ -1,0 +1,114 @@
+/*grill*/
+#contains{
+    border: solid;
+    width: 550px;
+    height: 330px;
+    margin: auto;
+    margin-top: 80px;
+    position: relative;
+}
+.goalright{
+    border: solid;
+    width: 50px;
+    height: 106px;
+    margin-top: 107px;
+    margin-left: -3px;
+    position: fixed;
+}
+.goalleft{
+    border: solid;
+    width: 50px;
+    height: 106px;
+    margin-top: 107px;
+    margin-left: 497px;
+    position: fixed;
+}
+.center{
+    background-color: black;
+    height: 2px;
+    width: 100%;
+    position: absolute;
+    top: 149px;
+    transform: rotate(90deg);
+    transform-origin: center;
+}
+/*token*/
+/*token red
+.p0 {
+    background-color: red;
+}
+/*.left {
+    left: 120px;
+}
+.top {
+    top: 25px;
+}*/
+#position {
+    width: 50px;
+    height: 50px;
+    border-radius:50% ;
+    position: absolute;
+    top: 25px;
+    left: 120px;
+    background-color: red;
+}
+
+#position1 {
+    width: 50px;
+    height: 50px;
+    border-radius:50% ;
+    position: absolute;
+    top: 133px;
+    left: 120px;
+    background-color: red;
+}
+
+#position2 {
+    width: 50px;
+    height: 50px;
+    border-radius:50% ;
+    position: absolute;
+    top: 246px;
+    left: 120px;
+    background-color: red;
+}
+/*ball*/
+#positionballnoir {
+    width: 50px;
+    height: 50px;
+    border-radius:50% ;
+    position: absolute;
+    top: 133px;
+    left: 249px;
+    background-color: rgb(0, 0, 0);
+}
+/*token blue*/
+#positionr {
+    width: 50px;
+    height: 50px;
+    border-radius:50% ;
+    position: absolute;
+    top: 25px;
+    left: 371px;
+    background-color: blue;
+}
+
+#positionr1 {
+    width: 50px;
+    height: 50px;
+    border-radius:50% ;
+    position: absolute;
+    top: 133px;
+    left: 371px;
+    background-color: blue;
+}
+
+#positionr2 {
+    width: 50px;
+    height: 50px;
+    border-radius:50% ;
+    position: absolute;
+    top: 246px;
+    left: 371px;
+    background-color: blue;
+}
